@@ -1,0 +1,84 @@
+# Console-Game
+A fun console game you can play
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Whats your name?");
+        Scanner nameinput = new Scanner(System.in);
+        String currentname = nameinput.nextLine();
+        System.out.println("Hello " +currentname + " My name is Markum I will be your guide in this game");
+        System.out.println("How are you today?");
+        String howareyouanswer = nameinput.nextLine();
+        System.out.println("Okay! lets get going lots to see and do " +currentname + " !");
+        System.out.println("Come on " + currentname + " Lets go to Deltem what do you think");
+        String deltem = nameinput.nextLine();
+        System.out.println("Okay lets go!");
+        System.out.println("CHAPTER ONE");
+        System.out.println("ENTERING DELTEM");
+        System.out.println( "Welcome to the town of Deltem " +currentname + " This is the main town in the game!");
+        System.out.println("Anyway " + currentname + " We need to get a move on lots to see and do");
+        System.out.println("Wow " +currentname + " I am starving lets go to the Deltem bakers shop and get some bread to eat");
+        System.out.println("CHAPTER TWO");
+        System.out.println("THE DELTEM BAKE SHOP");
+        System.out.println("Baker: Hello there what do you want today!");
+        System.out.println("Markum: Some bread please.");
+        System.out.println("Baker: What type");
+        System.out.println("Markum I will take some whole wheat bread and " +currentname + " Will take");
+        Scanner breadtype = new Scanner(System.in);
+        System.out.println("Markum: What type of bread do you want " +currentname);
+        String breadtypereply = breadtype.nextLine();
+        System.out.println(breadtypereply);
+        System.out.println("Great! comeing right up.");
+        System.out.println(currentname + " You are going to need to get a house in the town of Deltem");
+        Scanner jobwanted = new Scanner(System.in);
+        String respondtojobwanted =jobwanted.nextLine();
+        System.out.println("What do you think about makeing books as a job to get a home");
+        Scanner job = new Scanner(System.in);
+        String jobyesornow = job.nextLine();
+        System.out.println("Great! Go and see the Book Shop it is down the street and they need some new books!");
+        System.out.println("Baker: Wait a second your bread is here Markum and " + currentname);
+        System.out.println("Markum: After we have the bread we ordered " + currentname);
+        System.out.println("You: This bread is very good Markum thank you for the treat");
+        System.out.println("Markum: No Props " + currentname);
+        System.out.println("Baker: You guys all done?");
+        System.out.println("Markum: Yes thank you it was very good");
+        System.out.println("CHAPTER THREE JOBS");
+        System.out.println("Markum: Lets go to the Book Shop now " + currentname + " We will se if we can get you a new job");
+        System.out.println("Book Shop Owner: Hello how are you today");
+        System.out.println("Markum: Very good thank you");
+        System.out.println("Book Shop Owner: We are offering jobs are you interested");
+        System.out.println("Markum: Yes we are");
+        System.out.println("Book Shop Owner: Great we need someone to make some new books for us!");
+        System.out.println("Markum: Well my friend here " + currentname + " Would love to start working for you how much will you pay him");
+        System.out.println("Book Shop Owner: 4000 bucks per book");
+        System.out.println("Markum: Okay");
+        System.out.println("Markum:" + currentname + " Go take a look at some homes and I will meet with you back here");
+        System.out.println("You: Okay");
+        System.out.println("THE BUILDERS SHOP");
+        System.out.println("Builder: Hi");
+        System.out.println("You: Hi do you have any homes for sale");
+        System.out.println("Builder: Yes this on is only 4000 bucks");
+        System.out.println("You: Great thanks!");
+        System.out.println("THE BOOKSHOP");
+        System.out.println("You: I am done my house hunt");
+        System.out.println("Markum: Great!");
+        System.out.println("Markum: I got you the job");
+        System.out.println("You: Wonderfull!");
+        System.out.println("You: Thanks Markum");
+        System.out.println("Book Shop Owner: You can start work right now!");
+        System.out.println("Markum: Meet me at the bake shop tomorrow okay?");
+        System.out.println("You: Sure thing");
+        System.out.println("Make a book");
+        Scanner book = new Scanner(System.in);
+        String booksmade = book.nextLine();
+        System.out.println("You Made 4000");
+        System.out.println("YOU CAN BUY THE HOUSE");
+        System.out.println("CHAPTER FOUR GO MEET MARKUM");
+        System.out.println("You: Markum! I got the house");
+        System.out.println("Markum: Great!");
+        System.out.println("Baker: Congraz!");
+
+
+    }
+}
